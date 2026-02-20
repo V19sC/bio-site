@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vincent Musyoka | Software Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Quicksand&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="logo">Vincent Musyoka</div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#blog" class="nav-link">Writing</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1>Hello, I’m <span class="highlight">Vincent Musyoka</span></h1>
+        <p class="hero-subtitle">A passionate <span class="highlight">Software Developer</span> from Makueni, Kenya</p>
+        <p>Building websites, apps, and writing code to shape the future of IT.</p>
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+      </div>
+      <div class="hero-animation" aria-hidden="true">
+        <!-- playful animated shapes -->
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <h2>About Me</h2>
+      <p>
+        I’m Vincent Musyoka, a 20-year-old software developer from Makueni, Kenya. I’m driven by a passion to create impactful digital experiences and grow into a leading developer in the IT industry. My goal is to master web and app development, contribute to innovative projects, and inspire others through my work.
+      </p>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <h2>Skills &amp; IT Goals</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Websites</h3>
+          <p>Expertise in building responsive, modern websites using HTML, CSS, JavaScript, and frameworks.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Apps</h3>
+          <p>Developing mobile and desktop applications with a focus on usability and performance.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Writing</h3>
+          <p>Technical writing and blogging to share knowledge and document projects clearly.</p>
+        </div>
+        <div class="skill-card">
+          <h3>IT Ambitions</h3>
+          <p>To become a senior developer, contribute to open source, and lead innovative tech teams.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <h2>Projects &amp; Portfolio</h2>
+      <div class="projects-grid" aria-live="polite">
+        <!-- Sample project cards placeholders -->
+        <article class="project-card" tabindex="0">
+          <div class="project-image" aria-label="Project 1 screenshot placeholder"></div>
+          <h3>Project One</h3>
+          <p>A responsive website built with modern JavaScript and CSS animations.</p>
+          <a href="#" class="btn-secondary" aria-label="View Project One details">View Details</a>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-image" aria-label="Project 2 screenshot placeholder"></div>
+          <h3>Project Two</h3>
+          <p>A cross-platform mobile app focusing on user-friendly design and performance.</p>
+          <a href="#" class="btn-secondary" aria-label="View Project Two details">View Details</a>
+        </article>
+        <article class="project-card" tabindex="0">
+          <div class="project-image" aria-label="Project 3 screenshot placeholder"></div>
+          <h3>Project Three</h3>
+          <p>Technical blog platform with dynamic content and smooth user experience.</p>
+          <a href="#" class="btn-secondary" aria-label="View Project Three details">View Details</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="blog" class="section blog-section">
+      <h2>Writing &amp; Blog</h2>
+      <div class="blog-placeholder">
+        <p><em>Coming soon: dynamic articles and writing samples to share my journey and insights.</em></p>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials-section">
+      <h2>Testimonials &amp; Special Mentions</h2>
+      <div class="testimonial-card" tabindex="0" aria-label="Testimonial from Agnes, Vincent's bestie">
+        <p>“Vincent is a brilliant developer and an even better friend. His dedication and creativity inspire me every day!”</p>
+        <footer>
+          <strong>Agnes munee</strong> <a href="mailto:agnes1@gmail.com" class="testimonial-email" aria-label="Email Agnes">✉️</a> <span class="testimonial-handle">@kaylee</span>
+        </footer>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form" aria-label="Contact form to reach Vincent Musyoka">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+        <p id="form-status" role="alert" aria-live="polite"></p>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:musyokavincent87@gmail.com">musyokavincent87@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+254745169071">0745 169 071</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Vincent Musyoka | Designed &amp; Developed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
